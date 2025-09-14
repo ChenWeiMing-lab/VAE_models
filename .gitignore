@@ -1,0 +1,34 @@
+# Virtualenv
+.venv/
+.venv_scvi/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS artifacts
+.DS_Store
+
+# Logs
+*.log
+
+# Data and large artifacts (按需调整：若需版本化小样本，可移除对应规则)
+data/
+results/
+scRNA_analysis/CVAE_NB/
+scRNA_analysis/VAE_NB/
+scRNA_analysis/SCVI/
+scRNA_analysis/results_4models/
+scRNA_analysis/results_models/
+
+# Common large file types（如用 Git LFS，可改为 LFS 跟踪）
+*.h5ad
+*.npy
+*.npz
+*.pt
+*.pth
