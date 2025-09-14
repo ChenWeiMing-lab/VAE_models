@@ -1,4 +1,4 @@
-# VAE_models（scRNA 分析）
+# VAE_models（scRNA-seq data analysis）
 
 一个用于单细胞 RNA 测序（scRNA-seq）表征学习与批次效应整合的轻量项目。集成 Scanpy 基线流程、Harmony 批次校正，以及基于负二项分布（NB）的 VAE/CVAE 表征学习，并对不同方法的细胞分离效果、批次效应去除效果进行对比评估。
 
